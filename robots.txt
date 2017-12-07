@@ -1,0 +1,4 @@
+# robots.txt pour http://flaurenzi.eu
+
+  User-agent: *
+  Disallow: /

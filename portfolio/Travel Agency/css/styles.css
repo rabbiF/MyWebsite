@@ -1,0 +1,488 @@
+/* GENERAL */
+
+*
+{
+    margin : 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1, h2, h3, h4
+{
+     color: #444;
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;    
+}
+h2
+{    
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;    
+}
+h4
+{
+    font-size: 24px;       
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none; 
+    color:#444;
+}
+.wrapper
+{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+.orange
+{
+    color: #ff7a00;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+strong {
+    color: inherit;
+    font-weight: bold;
+}
+
+/* HEADER */ 
+
+header
+{
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 27px;
+    font-weight: bold;
+}
+header nav
+{
+    float: right;
+    margin-top: 49px;
+}
+header nav ul li
+{
+    float:left;
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-right: 20px;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar-brand {
+    position: relative;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background : url('../images/main.jpg') center;
+}
+#main-image h2
+{
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    line-height: 64px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px; 
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.button-1:hover
+{
+   background: #02b8dd; 
+}
+.clear
+{
+    clear: both;
+}
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+/* STEPS */
+
+#steps ul
+{
+    margin: 80px 0px;
+}
+
+#steps ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 137px;
+    text-align: center;
+    margin-right: 10px;
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+#steps p
+{
+    margin-bottom: 20px;
+}
+#step-1{
+    background:url('../images/steps-icon-1.png') no-repeat top center;
+}
+#step-2{
+    background:url('../images/steps-icon-2.png') no-repeat top center;
+}
+#step-3{
+    background:url('../images/steps-icon-3.png') no-repeat top center;
+}
+
+/* POSSIBILITIES */
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+#possibilities article
+{
+    max-width: 460px;
+    height: 270px;
+    float: left;  
+    border-radius: 10px;
+    background-size: 100% auto;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    box-sizing: border-box;
+    background: rgba(255,255,255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 10px;
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 18px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-2
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-2:hover
+{
+    color: #fff;
+    background-color: #02b8dd;
+}
+
+/* CONTACT */
+
+#contact
+{
+    padding: 56px 0;
+    text-align: center;    
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    font-family: Arial,sans-serif;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    padding: 11px;
+    font-weight: bold;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+    font-family: Arial,sans-serif;
+}
+.button-3:hover
+{
+    color: #fff;
+    background-color: #444;
+}
+
+/* FOOTER */
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color:#fff;
+    text-align: center;
+    padding-top: 80px; 
+    font-weight: bold;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+/***********tablette****************/
+@media screen and (min-width: 769px) and (max-width: 1023px){ 
+    h1 {    
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 22px;
+    }  
+    small {
+        font-size: 12px;
+    }
+    header h1 {    
+        margin-top: 21px;
+    }
+    header nav {   
+        margin-top: 29px;
+        margin-right: 5px;
+    }
+	header nav ul {
+		text-align: center;
+	}	
+	header nav ul li{
+		float:initial;		
+	}	
+	header nav ul li a{
+		margin-right: 0px;
+	}
+	#navMenu {
+		width: 130px;
+		position: absolute;
+		right: 0px;
+		top: 60px;
+		border-radius: 5px;
+		border: 1px solid #dddddd;
+	}
+    #main-image h2 {
+        line-height: 60px; 
+    }
+    #possibilities p {   
+        margin-bottom: 15px;
+        width: 92%;
+    }
+    #possibilities article {    
+        background-size: 391px auto;
+        width: 391px;
+        height: 231px;
+    }
+    article h4 {    
+        padding-bottom: 17px;
+        margin-bottom: 14px; 
+        line-height: 26px;
+        margin-top: 8px;
+    }	
+}
+
+/*********mobile******************/
+@media screen and (max-width: 768px) {
+    h1 {    
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 45px;
+    }  
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 18px;
+    }  
+    small {
+        font-size: 11px;
+    }
+    header h1 {    
+        margin-top: 27px;
+    }
+    header nav {   
+        margin-top: 29px;
+        margin-right: 5px;
+    }	
+	header nav ul {
+		text-align: center;
+	}	
+	header nav ul li{
+		float:initial;		
+	}	
+	header nav ul li a{
+		margin-right: 0px;
+	}
+	#navMenu {
+		width: 130px;
+		position: absolute;
+		right: 0px;
+		top: 60px;
+		border-radius: 5px;		
+		border: 1px solid #dddddd;
+	}	
+    .button-1 {
+        width: 100px;
+        height: 45px;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    p {
+        line-height: 18px;   
+        font-size: 12px;
+    }
+    #steps ul li {
+        float: initial;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #possibilities p {   
+        margin-bottom: 10px;
+        width: 92%;
+        line-height: 18px;
+    }
+    #possibilities article {    
+        background-size: 300px auto;
+        width: 300px;
+        height: 176px;
+    }
+    article h4 {    
+        padding-bottom: 12px;
+        margin-bottom: 10px; 
+        line-height: 20px;
+        margin-top: 4px;
+    }
+    .button-2 {    
+        font-size: 11px;
+    }
+    #contact {   
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5px;
+        padding-right: 5px
+    }
+    #contact h3 {  
+        margin: 0 auto 15px;    
+        padding-bottom: 10px;
+    }
+    form {
+        margin: 50px auto 15px auto;
+        max-width: 298px;    
+        height: 160px;
+    }
+    label {    
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    input[type="text"] {
+        padding: 10px;
+        font-size: 16px;  
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    #name{
+        margin-left: 7px;
+    }
+    .button-3 {    
+        font-size: 16px;
+        padding: 11px;  
+        margin-top: 7px;
+    }	
+}
