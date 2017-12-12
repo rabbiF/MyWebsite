@@ -9,3 +9,5 @@ Les projets que je présente sont :
  - Snake : un jeu pour montrer l'utilisation du javascript + de la balise canvas
  - BurgerCode : site web reponsive grâce à Bootstrap avec une interface d'administration sous php 7.
  
+ Voici le lien de mon site : http://flaurenzi.eu
+ 
